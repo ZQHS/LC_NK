@@ -13,7 +13,7 @@ public class LeetCode641 {
 
 class MyCircularDeque {
 
-    int size = 0;
+    int size;
     LinkedList<Integer> list = new LinkedList<>();
 
     public MyCircularDeque(int k) {

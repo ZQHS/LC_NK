@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OD.iml" filepath="$PROJECT_DIR$/.idea/modules/OD.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OD-build.iml" filepath="$PROJECT_DIR$/.idea/modules/OD-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LC_NW.iml" filepath="$PROJECT_DIR$/.idea/modules/LC_NW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LC_NW-build.iml" filepath="$PROJECT_DIR$/.idea/modules/LC_NW-build.iml" />
     </modules>
   </component>
 </project>
