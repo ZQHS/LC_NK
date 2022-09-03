@@ -1,3 +1,5 @@
+package leetcode;
+
 public class LeetCode998 {
     public TreeNode insertIntoMaxTree(TreeNode root, int val) {
         if (root.val < val) {

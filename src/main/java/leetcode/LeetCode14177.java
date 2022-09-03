@@ -1,3 +1,5 @@
+package leetcode;
+
 import java.util.ArrayList;
 
 public class LeetCode14177 {
@@ -13,7 +15,7 @@ public class LeetCode14177 {
                 characters.add(chars[i]);
             }
         }
-        
+
         StringBuilder sb = new StringBuilder();
 
         if (nums.size() == 0 && characters.size() == 0) {

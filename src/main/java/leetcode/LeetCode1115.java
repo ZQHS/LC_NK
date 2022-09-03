@@ -1,3 +1,5 @@
+package leetcode;
+
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
@@ -46,13 +48,13 @@ class FooBar {
 }
 
 // Semaphore实现
-//class FooBar {
+//class leetcode.FooBar {
 //    private int n;
 //
 //    private Semaphore fooSema = new Semaphore(1);
 //    private Semaphore barSema = new Semaphore(0);
 //
-//    public FooBar(int n) {
+//    public leetcode.FooBar(int n) {
 //        this.n = n;
 //    }
 //

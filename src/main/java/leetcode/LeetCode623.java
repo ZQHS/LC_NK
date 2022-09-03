@@ -1,3 +1,5 @@
+package leetcode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.stream.Stream;
@@ -34,7 +36,7 @@ public class LeetCode623 {
                 x.left = new TreeNode(val, x.left, null);
                 x.right = new TreeNode(val, null, x.right);
             });
-            
+
             return root;
         }
     }

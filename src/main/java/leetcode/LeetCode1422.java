@@ -1,3 +1,5 @@
+package leetcode;
+
 public class LeetCode1422 {
     public int maxScore(String s) {
         int sum = 0;

@@ -1,3 +1,5 @@
+package leetcode;
+
 public class LeetCode1413 {
     public int minStartValue(int[] nums) {
         int min = 0;

@@ -1,11 +1,12 @@
-import java.util.ArrayList;
+package leetcode;
+
 import java.util.HashMap;
 import java.util.Objects;
 
 public class Solution290 {
     public static void main(String[] args) {
         Solution290 solution290 = new Solution290();
-        boolean flag= solution290.wordPattern(
+        boolean flag = solution290.wordPattern(
                 "ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccdd",
                 "s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s s t t");
 
@@ -19,13 +20,13 @@ public class Solution290 {
         String[] strs = s.split(" ");
 
 
-        if (strs.length!=pattern.length()) {
+        if (strs.length != pattern.length()) {
             return false;
         }
 
         boolean flag = true;
 
-        for (int i = 0; i <pattern.length() ; i++) {
+        for (int i = 0; i < pattern.length(); i++) {
             if (!map1.containsKey(pattern.charAt(i))) {
                 map1.put(pattern.charAt(i), i);
 
@@ -38,7 +39,7 @@ public class Solution290 {
 
             if (!Objects.equals(map1.get(pattern.charAt(i)), map2.get(strs[i]))) {
 
-             flag = false;
+                flag = false;
             }
         }
 

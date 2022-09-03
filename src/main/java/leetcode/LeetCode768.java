@@ -1,3 +1,5 @@
+package leetcode;
+
 public class LeetCode768 {
     public static void main(String[] args) {
         System.out.println(new LeetCode768().maxChunksToSorted(new int[]{2, 1, 3, 4, 4}));

@@ -1,3 +1,5 @@
+package leetcode;
+
 import java.util.Stack;
 
 public class LeetCode946 {
@@ -11,8 +13,7 @@ public class LeetCode946 {
         int i = 0, j = 0;
         Stack<Integer> stack = new Stack<>();
         while (i <= pushed.length && j < popped.length) {
-            System.out.println(i);
-            System.out.println(j);
+
             if (stack.isEmpty()) {
                 stack.push(pushed[i++]);
             } else if (stack.peek() == popped[j]) {
